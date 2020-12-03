@@ -20,8 +20,11 @@ def main():
     elif age > 40:
         print("You are too old")
 
-    else:
+    elif age < 25:
         print("You are too young")
+
+    else:
+        print("Please enter an actual age")
 
 
 if __name__ == "__main__":
